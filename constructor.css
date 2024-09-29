@@ -1,0 +1,108 @@
+.set-container {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    min-height: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#universe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#workspace {
+    display: flex;
+    justify-content: space-around;
+}
+
+#set-a, #set-b {
+    width: 45%;
+}
+
+.element {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: move;
+}
+
+#operations {
+    margin: 20px 0;
+}
+
+.operation-btn {
+    margin: 0 5px;
+    padding: 10px 15px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.operation-btn:hover {
+    background-color: #1976D2;
+}
+
+#mission {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.game-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#check {
+    background-color: #4CAF50;
+}
+
+#reset {
+    background-color: #f44336;
+}
+
+#next-level {
+    background-color: #2196F3;
+}
+
+.game-button:hover {
+    opacity: 0.9;
+}
+
+.set-items {
+    min-height: 50px;
+    border: 1px dashed #fff;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.incorrect {
+    background-color: #f44336;
+}

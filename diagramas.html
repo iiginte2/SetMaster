@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagramas de Conjuntos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="diagramas.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="diagramas.html">Diagramas</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="glosario.html">Glosario</a></li>
+            <li><a href="clasificacion.html">Clasificación</a></li>
+            <!--li><a href="constructor.html">Constructor</a></li-->
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Diagramas de Conjuntos</h1>
+        <div class="instructions">
+            <h2>Instrucciones:</h2>
+            <ol>
+                <li>Ingresa los elementos de los conjuntos A y B en los campos de texto correspondientes, separados por comas.</li>
+                <li>Los elementos pueden ser números o palabras. Por ejemplo: 1,2,3 o manzana,pera,uva</li>
+                <li>Haz clic en los botones de operación (AUB, AnB, A-B, B-A, AΔB) para ver el resultado de cada operación.</li>
+                <li>Observa el diagrama de Venn que se genera automáticamente para visualizar la relación entre los conjuntos.</li>
+                <li>El resultado de la operación se mostrará tanto en forma de texto como en el diagrama de Venn.</li>
+                <li>Puedes modificar los conjuntos en cualquier momento y realizar nuevas operaciones.</li>
+            </ol>
+        </div>
+        <div class="set-inputs">
+            <div class="set-input">
+                <label for="setA">Conjunto A:</label>
+                <input type="text" id="setA" placeholder="Ej. 1,2,3,4,5">
+            </div>
+            <div class="set-input">
+                <label for="setB">Conjunto B:</label>
+                <input type="text" id="setB" placeholder="Ej. 4,5,6,7,8">
+            </div>
+        </div>
+        <div class="operations">
+            <button class="btn btn-operation" data-operation="AUB">AUB</button>
+            <button class="btn btn-operation" data-operation="AnB">AnB</button>
+            <button class="btn btn-operation" data-operation="A-B">A-B</button>
+            <button class="btn btn-operation" data-operation="B-A">B-A</button>
+            <button class="btn btn-operation" data-operation="AΔB">AΔB</button>
+        </div>
+        <div id="result" class="result"></div>
+        <div id="venn-diagram" class="venn-diagram"></div>
+        
+        <a href="index.html" class="btn-home">Volver al Inicio</a>
+    </div>
+
+    <script src="diagramas.js"></script>
+</body>
+</html>

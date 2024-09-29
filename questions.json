@@ -1,0 +1,248 @@
+{
+  "questions": [
+    {
+      "question": "¿Qué es un conjunto en teoría de conjuntos?",
+      "answers": [
+        { "text": "Una colección de elementos bien definidos", "correct": true },
+        { "text": "Una serie de números", "correct": false },
+        { "text": "Un grupo de personas", "correct": false },
+        { "text": "Una lista ordenada", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué representa la operación A ∪ B?",
+      "answers": [
+        { "text": "Intersección", "correct": false },
+        { "text": "Unión", "correct": true },
+        { "text": "Diferencia", "correct": false },
+        { "text": "Complemento", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué es un conjunto vacío?",
+      "answers": [
+        { "text": "Un conjunto con un solo elemento", "correct": false },
+        { "text": "Un conjunto con elementos repetidos", "correct": false },
+        { "text": "Un conjunto sin elementos", "correct": true },
+        { "text": "Un conjunto con elementos indefinidos", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué símbolo se utiliza para representar la intersección de conjuntos?",
+      "answers": [
+        { "text": "∪", "correct": false },
+        { "text": "∩", "correct": true },
+        { "text": "-", "correct": false },
+        { "text": "×", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué es un subconjunto?",
+      "answers": [
+        { "text": "Un conjunto que contiene todos los elementos de otro conjunto", "correct": false },
+        { "text": "Un conjunto que está contenido en otro conjunto", "correct": true },
+        { "text": "Un conjunto con menos elementos que otro", "correct": false },
+        { "text": "Un conjunto que no tiene relación con otro conjunto", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué representa el símbolo ∈?",
+      "answers": [
+        { "text": "Pertenece a", "correct": true },
+        { "text": "No pertenece a", "correct": false },
+        { "text": "Subconjunto de", "correct": false },
+        { "text": "Unión", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué es el conjunto universal?",
+      "answers": [
+        { "text": "El conjunto que contiene todos los elementos posibles", "correct": true },
+        { "text": "El conjunto vacío", "correct": false },
+        { "text": "Un conjunto con infinitos elementos", "correct": false },
+        { "text": "El conjunto de números naturales", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué es el complemento de un conjunto?",
+      "answers": [
+        { "text": "Los elementos que no están en el conjunto", "correct": true },
+        { "text": "Los elementos que están en el conjunto", "correct": false },
+        { "text": "La unión del conjunto con otro", "correct": false },
+        { "text": "La intersección del conjunto con otro", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué representa la operación A - B?",
+      "answers": [
+        { "text": "Unión", "correct": false },
+        { "text": "Intersección", "correct": false },
+        { "text": "Diferencia", "correct": true },
+        { "text": "Complemento", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué es un conjunto finito?",
+      "answers": [
+        { "text": "Un conjunto con un número limitado de elementos", "correct": true },
+        { "text": "Un conjunto con infinitos elementos", "correct": false },
+        { "text": "Un conjunto vacío", "correct": false },
+        { "text": "Un conjunto con elementos repetidos", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué es la cardinalidad de un conjunto?",
+      "answers": [
+        { "text": "El número de elementos en el conjunto", "correct": true },
+        { "text": "El tamaño físico del conjunto", "correct": false },
+        { "text": "La suma de los elementos del conjunto", "correct": false },
+        { "text": "El producto de los elementos del conjunto", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué es un conjunto infinito?",
+      "answers": [
+        { "text": "Un conjunto con un número ilimitado de elementos", "correct": true },
+        { "text": "Un conjunto con 100 elementos o más", "correct": false },
+        { "text": "Un conjunto que no se puede contar", "correct": false },
+        { "text": "Un conjunto con elementos repetidos", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué es un conjunto unitario?",
+      "answers": [
+        { "text": "Un conjunto con exactamente un elemento", "correct": true },
+        { "text": "Un conjunto vacío", "correct": false },
+        { "text": "Un conjunto con elementos únicos", "correct": false },
+        { "text": "Un conjunto con infinitos elementos", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué representa la operación A △ B?",
+      "answers": [
+        { "text": "Diferencia simétrica", "correct": true },
+        { "text": "Unión", "correct": false },
+        { "text": "Intersección", "correct": false },
+        { "text": "Complemento", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué es un diagrama de Venn?",
+      "answers": [
+        { "text": "Una representación gráfica de conjuntos", "correct": true },
+        { "text": "Un tipo de conjunto", "correct": false },
+        { "text": "Una operación entre conjuntos", "correct": false },
+        { "text": "Un método para contar elementos", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué es la ley de De Morgan?",
+      "answers": [
+        { "text": "Una regla para simplificar operaciones con conjuntos", "correct": true },
+        { "text": "Una ley que define los conjuntos", "correct": false },
+        { "text": "Un método para crear conjuntos", "correct": false },
+        { "text": "Una regla para contar elementos en conjuntos", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué es un conjunto potencia?",
+      "answers": [
+        { "text": "El conjunto de todos los subconjuntos de un conjunto dado", "correct": true },
+        { "text": "Un conjunto elevado a una potencia", "correct": false },
+        { "text": "Un conjunto con elementos muy grandes", "correct": false },
+        { "text": "La unión de todos los conjuntos posibles", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué es la propiedad asociativa en la teoría de conjuntos?",
+      "answers": [
+        { "text": "A ∪ (B ∪ C) = (A ∪ B) ∪ C", "correct": true },
+        { "text": "A ∪ B = B ∪ A", "correct": false },
+        { "text": "A ∪ A = A", "correct": false },
+        { "text": "A ∪ ∅ = A", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué representa el símbolo ⊆?",
+      "answers": [
+        { "text": "Subconjunto", "correct": true },
+        { "text": "Conjunto vacío", "correct": false },
+        { "text": "Unión", "correct": false },
+        { "text": "Intersección", "correct": false }
+      ]
+    },
+    {
+      "question": "Si A ⊆ B, ¿qué significa?",
+      "answers": [
+        { "text": "Que todos los elementos de A están en B", "correct": true },
+        { "text": "Que A y B son iguales", "correct": false },
+        { "text": "Que A y B no tienen elementos comunes", "correct": false },
+        { "text": "Que B es subconjunto de A", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Cómo se llama el conjunto que contiene todos los subconjuntos posibles de un conjunto dado?",
+      "answers": [
+        { "text": "Conjunto potencia", "correct": true },
+        { "text": "Conjunto universal", "correct": false },
+        { "text": "Conjunto vacío", "correct": false },
+        { "text": "Subconjunto", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué representa la operación A ∩ B?",
+      "answers": [
+        { "text": "Los elementos que están en A pero no en B", "correct": false },
+        { "text": "La intersección de A y B", "correct": true },
+        { "text": "La diferencia entre A y B", "correct": false },
+        { "text": "La unión de A y B", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué ocurre si A ⊆ B y B ⊆ A?",
+      "answers": [
+        { "text": "A y B son conjuntos iguales", "correct": true },
+        { "text": "A y B no tienen elementos comunes", "correct": false },
+        { "text": "A y B son disjuntos", "correct": false },
+        { "text": "A y B son subconjuntos vacíos", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué es la propiedad distributiva en teoría de conjuntos?",
+      "answers": [
+        { "text": "A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)", "correct": true },
+        { "text": "A ∩ B = B ∩ A", "correct": false },
+        { "text": "A ∪ (B ∪ C) = (A ∪ B) ∪ C", "correct": false },
+        { "text": "A ∪ B = B ∪ A", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué representa el símbolo ⊂?",
+      "answers": [
+        { "text": "Subconjunto propio", "correct": true },
+        { "text": "Subconjunto", "correct": false },
+        { "text": "Unión", "correct": false },
+        { "text": "Intersección", "correct": false }
+      ]
+    },
+    {
+      "question": "Si A ⊂ B, ¿qué significa?",
+      "answers": [
+        { "text": "A es subconjunto propio de B, y A ≠ B", "correct": true },
+        { "text": "A es subconjunto propio de B, pero A = B", "correct": false },
+        { "text": "A y B son subconjuntos del conjunto universal", "correct": false },
+        { "text": "A y B no tienen elementos en común", "correct": false }
+      ]
+    },
+    {
+      "question": "¿Qué representa el símbolo ∉?",
+      "answers": [
+        { "text": "No pertenece a", "correct": true },
+        { "text": "Pertenece a", "correct": false },
+        { "text": "Unión", "correct": false },
+        { "text": "Intersección", "correct": false }
+      ]
+    }
+    
+  ]
+}

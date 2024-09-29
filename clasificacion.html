@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Clasificación de Elementos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="clasificacion.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="diagramas.html">Diagramas</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="glosario.html">Glosario</a></li>
+            <li><a href="clasificacion.html">Clasificación</a></li>
+    <!-- <li><a href="constructor.html">Constructor</a></li-->
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Juego de Clasificación de Elementos</h1>
+        <div class="instructions">
+            <h2>Instrucciones:</h2>
+            <ol>
+                <li>Observa el elemento que aparece en la parte superior de la pantalla.</li>
+                <li>Decide a qué categoría pertenece el elemento: Frutas, Vegetales o Ambos.</li>
+                <li>Arrastra y suelta el elemento en la categoría que consideres correcta.</li>
+                <li>Si tu clasificación es correcta, el elemento quedará en esa categoría y obtendrás puntos.</li>
+                <li>Si cometes un error, el juego te permitirá intentarlo de nuevo.</li>
+                <li>Presta atención al mensaje de retroalimentación después de cada intento.</li>
+                <li>Intenta clasificar correctamente todos los elementos para obtener la máxima puntuación.</li>
+                <li>Puedes usar el botón "Siguiente Elemento" si te quedas atascado en algún elemento.</li>
+            </ol>
+        </div>
+        <div id="game-area">
+            <div id="element-to-classify" draggable="true"></div>
+            <div id="sets-container">
+                <div id="set-a" class="set">
+                    <h3>Frutas</h3>
+                </div>
+                <div id="set-b" class="set">
+                    <h3>Vegetales</h3>
+                </div>
+                <div id="set-c" class="set">
+                    <h3>Ambos</h3>
+                </div>
+            </div>
+        </div>
+        <div id="message"></div>
+        <div id="score">Puntuación: 0</div>
+        <button id="next-element">Siguiente Elemento</button>
+        <a href="index.html" class="btn-home">Volver al Inicio</a>
+    </div>
+
+    <script src="clasificacion.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructor de Conjuntos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="constructor.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="diagramas.html">Diagramas</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="glosario.html">Glosario</a></li>
+            <li><a href="clasificacion.html">Clasificación</a></li>
+            <li><a href="constructor.html">Constructor</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Constructor de Conjuntos</h1>
+        <div class="instructions">
+            <h2>Instrucciones:</h2>
+            <ol>
+                <li>Lee la misión descrita en la parte superior.</li>
+                <li>Arrastra y suelta elementos del universo a los conjuntos A y B.</li>
+                <li>Usa los botones de operación para combinar los conjuntos A y B según sea necesario.</li>
+                <li>Haz clic en "Comprobar" para verificar tu solución.</li>
+                <li>Si cometes un error, puedes usar el botón "Reiniciar Nivel" para empezar de nuevo.</li>
+                <li>Completa la misión actual para avanzar al siguiente nivel.</li>
+            </ol>
+        </div>
+        <div id="mission"></div>
+        <div id="universe" class="set-container"></div>
+        <div id="workspace">
+            <div id="set-a" class="set-container">
+                <h3>Conjunto A</h3>
+                <div class="set-items"></div>
+            </div>
+            <div id="set-b" class="set-container">
+                <h3>Conjunto B</h3>
+                <div class="set-items"></div>
+            </div>
+        </div>
+        <div id="operations">
+            <button id="union" class="operation-btn">Unión (A ∪ B)</button>
+            <button id="intersection" class="operation-btn">Intersección (A ∩ B)</button>
+            <button id="difference-ab" class="operation-btn">Diferencia (A - B)</button>
+            <button id="difference-ba" class="operation-btn">Diferencia (B - A)</button>
+        </div>
+        <div id="result" class="set-container">
+            <h3>Resultado</h3>
+            <div class="set-items"></div>
+        </div>
+        <div id="feedback"></div>
+        <div class="button-container">
+            <button id="check" class="game-button">Comprobar</button>
+            <button id="reset" class="game-button">Reiniciar Nivel</button>
+            <button id="next-level" class="game-button" style="display: none;">Siguiente Nivel</button>
+        </div>
+        <a href="index.html" class="btn-home">Volver al Inicio</a>
+    </div>
+
+    <script src="constructor.js"></script>
+</body>
+</html>

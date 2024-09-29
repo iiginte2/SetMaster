@@ -1,0 +1,90 @@
+#game-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#element-to-classify {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: move;
+    background-color: #FFC107;
+    color: #000;
+}
+
+#sets-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.set {
+    width: 200px;
+    min-height: 200px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.element {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#score {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#next-element {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#next-element:hover {
+    background-color: #45a049;
+}
+
+#message {
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.correct {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.incorrect {
+    background-color: #f44336;
+    color: white;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.shake {
+    animation: shake 0.5s;
+}

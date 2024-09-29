@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetMaster: Domina la Teoría de Conjuntos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="diagramas.html">Diagramas</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="glosario.html">Glosario</a></li>
+            <li><a href="clasificacion.html">Clasificación</a></li>
+            <!--li><a href="constructor.html">Constructor</a></li-->
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>SetMaster: Domina la Teoría de Conjuntos</h1>
+            <p>Explora, aprende y domina los conceptos fundamentales de la teoría de conjuntos de manera interactiva.</p>
+        </header>
+
+        <!--section class="why-study">
+            <h2>¿Por qué estudiar Teoría de Conjuntos?</h2>
+            <ul>
+                <li>Base fundamental para las matemáticas avanzadas</li>
+                <li>Desarrolla el pensamiento lógico y analítico</li>
+                <li>Aplicaciones en programación y ciencia de datos</li>
+            </ul>
+        </section-->
+
+        <section class="main-features">
+            <h2>Explora nuestras características</h2>
+            <div class="feature-grid">
+                <a href="diagramas.html" class="feature-item">
+                    <h3>Diagramas Interactivos</h3>
+                    <p>Visualiza conceptos con diagramas de Venn dinámicos</p>
+                </a>
+                <a href="quiz.html" class="feature-item">
+                    <h3>Quiz Adaptativo</h3>
+                    <p>Pon a prueba tus conocimientos con preguntas personalizadas</p>
+                </a>
+                <a href="glosario.html" class="feature-item">
+                    <h3>Glosario Dinámico</h3>
+                    <p>Explora términos y definiciones clave</p>
+                </a>
+                <a href="clasificacion.html" class="feature-item">
+                    <h3>Juego de Clasificación</h3>
+                    <p>Practica la clasificación de elementos en conjuntos</p>
+                </a>
+                <!--a href="constructor.html" class="feature-item">
+                    <h3>Constructor de Conjuntos</h3>
+                    <p>Crea y opera con tus propios conjuntos</p>
+                </a-->
+            </div>
+        </section>
+
+        <section class="fun-fact">
+            <h3>¿Sabías que...?</h3>
+            <p id="fun-fact-text">La teoría de conjuntos fue desarrollada por Georg Cantor en el siglo XIX.</p>
+        </section>
+
+        <section class="cta">
+            <h2>¿Listo para comenzar?</h2>
+            <a href="diagramas.html" class="btn btn-primary">Inicia tu viaje en la Teoría de Conjuntos</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SetMaster. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const funFacts = [
+                "La teoría de conjuntos fue desarrollada por Georg Cantor en el siglo XIX.",
+                "El conjunto vacío es un subconjunto de todos los conjuntos.",
+                "Los diagramas de Venn fueron introducidos por John Venn en 1880.",
+                "La teoría de conjuntos es fundamental para muchas áreas de las matemáticas.",
+                "El símbolo ∈ se usa para indicar que un elemento pertenece a un conjunto.",
+                "Un conjunto puede contener otros conjuntos como elementos.",
+                "La paradoja de Russell llevó a una revisión de la teoría de conjuntos.",
+                "La cardinalidad de un conjunto infinito puede ser igual a la de uno de sus subconjuntos."
+            ];
+
+            let currentFactIndex = 0;
+            const funFactText = document.getElementById('fun-fact-text');
+
+            function changeFunFact() {
+                currentFactIndex = (currentFactIndex + 1) % funFacts.length;
+                funFactText.textContent = funFacts[currentFactIndex];
+            }
+
+            // Cambiar el hecho cada 10 segundos (10000 milisegundos)
+            setInterval(changeFunFact, 5000);
+        });
+    </script>
+</body>
+</html>

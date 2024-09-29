@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Teoría de Conjuntos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="diagramas.html">Diagramas</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+            <li><a href="glosario.html">Glosario</a></li>
+            <li><a href="clasificacion.html">Clasificación</a></li>
+            <!--li><a href="constructor.html">Constructor</a></li-->
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Quiz de Teoría de Conjuntos</h1>
+        <div class="instructions">
+            <h2>Instrucciones:</h2>
+            <ol>
+                <li>Lee cuidadosamente cada pregunta presentada.</li>
+                <li>Selecciona la respuesta que consideres correcta haciendo clic en ella.</li>
+                <li>Una vez seleccionada una respuesta, se mostrará si es correcta o incorrecta.</li>
+                <li>Usa el botón "Siguiente" para avanzar a la siguiente pregunta.</li>
+                <li>Al final del quiz, verás tu puntuación y podrás revisar tus respuestas.</li>
+                <li>Puedes intentar el quiz tantas veces como quieras para mejorar tu comprensión.</li>
+            </ol>
+        </div>
+        <div id="quiz-container">
+            <div id="question-container">
+                <h2 id="question"></h2>
+                <div id="answer-buttons" class="btn-grid">
+                    <!-- Los botones de respuesta se generarán dinámicamente aquí -->
+                </div>
+            </div>
+            <div id="controls">
+                <p id="score">Puntaje: 0</p>
+                <p id="progress">Pregunta 1 de 10</p>
+            </div>
+        </div>
+        <button id="next-btn" class="btn">Siguiente</button>
+        <button id="restart-btn" class="btn hide">Intentar de nuevo</button>
+        <div id="question-history" class="hide"></div>
+        <a href="index.html" class="btn-home">Volver al Inicio</a>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
